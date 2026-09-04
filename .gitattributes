@@ -1,0 +1,79 @@
+# .gitattributes
+
+# Automatically detect text files and normalise line endings.
+* text=auto
+
+# Source code
+*.cs          text eol=lf  diff=csharp
+*.ts          text eol=lf
+*.html        text eol=lf
+*.css         text eol=lf
+*.scss        text eol=lf
+*.sql         text eol=lf
+*.bicep       text eol=lf
+*.bicepparam  text eol=lf
+
+# .NET project files
+*.csproj   text eol=lf
+*.props    text eol=lf
+*.targets  text eol=lf
+*.sln      text eol=crlf
+*.slnx     text eol=lf
+
+# Configuration and data
+*.json          text eol=lf
+*.jsonc         text eol=lf
+*.xml           text eol=lf
+*.yml           text eol=lf
+*.yaml          text eol=lf
+*.toml          text eol=lf
+*.ini           text eol=lf
+*.config        text eol=lf
+*.editorconfig  text eol=lf
+.env.example    text eol=lf
+.env.*.example  text eol=lf
+
+# Documentation
+*.md     text eol=lf  diff=markdown
+*.txt    text eol=lf
+LICENSE  text eol=lf
+
+# Scripts
+*.sh   text eol=lf
+*.ps1  text eol=lf
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+
+# Images
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.ico   binary
+*.bmp   binary
+
+# Fonts
+*.woff   binary
+*.woff2  binary
+*.ttf    binary
+*.otf    binary
+*.eot    binary
+
+# Documents and archives
+*.pdf   binary
+*.doc   binary
+*.docx  binary
+*.xls   binary
+*.xlsx  binary
+*.ppt   binary
+*.pptx  binary
+*.zip   binary
+*.7z    binary
+*.tar   binary
+*.gz    binary
+
+# Compiled binaries
+*.dll  binary
+*.exe  binary
+*.pdb  binary
