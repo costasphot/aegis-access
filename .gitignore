@@ -1,5 +1,8 @@
 # .gitignore
 
+# Local-only project assets and design backups
+/private/
+
 # Environment variables and local configuration
 .env
 .env.*
