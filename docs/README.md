@@ -135,6 +135,7 @@ Planned location: `docs/development/`
 | Development Workflow | Planned | Defines the issue, branch, pull-request, review, and merge process |
 | [Repository Governance](development/repository-governance.md) | Draft | Defines protected-branch rules, merge controls, deferred safeguards, and verification |
 | [Repository Strategy](development/repository-strategy.md) | Accepted | Defines GitHub ownership, GitLab mirroring, synchronisation, credential handling and failure recovery |
+| [Design Workflow](development/design-workflow.md) | Draft | Defines the Figma structure, design lifecycle, traceability, versioning, sharing, and implementation handoff process |
 | Commit Guidelines | Planned | Defines the project's human-readable commit-message style |
 | Dependency Management | Planned | Defines dependency selection, locking, updates, and vulnerability handling |
 | Database Development | Planned | Defines local database use, migrations, seed data, and test isolation |
