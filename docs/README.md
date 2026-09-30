@@ -133,6 +133,7 @@ Planned location: `docs/development/`
 |---|---|---|
 | Local Setup | Planned | Defines the tools and commands required to run the project locally |
 | Development Workflow | Planned | Defines the issue, branch, pull-request, review, and merge process |
+| [Repository Governance](development/repository-governance.md) | Draft | Defines protected-branch rules, merge controls, deferred safeguards, and verification |
 | Repository Strategy | Planned | Defines GitHub ownership, GitLab mirroring, and branch protection |
 | Commit Guidelines | Planned | Defines the project's human-readable commit-message style |
 | Dependency Management | Planned | Defines dependency selection, locking, updates, and vulnerability handling |
@@ -191,4 +192,4 @@ Small reference documents do not require metadata when it would add no practical
 - A release is prepared.
 - Existing documentation no longer matches verified system behaviour.
 
-Outdated documentation is trated as a defect.
+Outdated documentation is treated as a defect.
