@@ -140,6 +140,14 @@ Planned location: `docs/development/`
 | AI Usage | Planned | Defines permitted educational and review assistance and developer accountability |
 | Troubleshooting | Planned | Records verified solutions to common development problems |
 
+### Contribution and review
+
+| Document | Purpose |
+| --- | --- |
+| [Contribution guide](../CONTRIBUTING.md) | Defines the repository-wide contribution, review, and completion requirements. |
+| [Git workflow](development/git-workflow.md) | Defines the traceable workflow between Azure Boards, branches, commits, pull requests, and merges. |
+| [Pull-request template](../.github/pull_request_template.md) | Provides the standard structure and review checklist for every pull request. |
+
 ## Document conventions
 
 Documentation should:
