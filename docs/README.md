@@ -24,6 +24,8 @@ Planned documents are listed below without links. A link will be added only afte
 |---|---|---|
 | [Project Charter](../PROJECT_CHARTER.md) | Draft | Defines the project's purpose, objectives, scope, constraints, risks, and success criteria |
 | [Source-Available Notice](../LICENSE) | Accepted | Defines project ownership, permitted evaluation, reuse restrictions, third-party licensing, and branding rights |
+| [Security Policy](../SECURITY.md) | Supported versions and responsible vulnerability reporting | Active |
+| [Publication-Readiness Review](development/publication-readiness.md) | Pre-publication validation, security checks, and accepted residual risks | Active |
 | Product Vision | Planned | Describes the intended users, value, direction, and long-term product boundaries |
 | Roadmap | Planned | Describes planned milestones and release direction |
 | Changelog | Planned | Records notable changes included in each release |
