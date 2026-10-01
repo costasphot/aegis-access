@@ -23,6 +23,7 @@ Planned documents are listed below without links. A link will be added only afte
 | Document | Status | Purpose |
 |---|---|---|
 | [Project Charter](../PROJECT_CHARTER.md) | Draft | Defines the project's purpose, objectives, scope, constraints, risks, and success criteria |
+| [Source-Available Notice](../LICENSE) | Accepted | Defines project ownership, permitted evaluation, reuse restrictions, third-party licensing, and branding rights |
 | Product Vision | Planned | Describes the intended users, value, direction, and long-term product boundaries |
 | Roadmap | Planned | Describes planned milestones and release direction |
 | Changelog | Planned | Records notable changes included in each release |

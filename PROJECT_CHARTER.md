@@ -5,7 +5,7 @@
 | Project | Aegis Access |
 | Document status | Draft |
 | Document version | 0.1 |
-| Project owner | Costas |
+| Project owner | G. Konstantinos Fotopoulos (Costas Phot) |
 | Current phase | Product definition and repository foundation |
 | Created | 3 September 2026 |
 | Last updated | 4 September 2026 |

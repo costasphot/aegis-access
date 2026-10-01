@@ -135,8 +135,14 @@ Aegis Access is intended to demonstrate professional experience with:
 - Cloud infrastructure and observability, and
 - Technical documentation and architecture governance.
 
-## Project ownership
+## Project ownership and licensing
 
-Aegis Access is independently designed and developed by Costas Phot as an educational, portfolio, and potential academic project.
+Aegis Access is independently designed and developed by G. Konstantinos Fotopoulos (Costas Phot) as an educational, portfolio, and potential academic project.
 
-No license has been granted at this stage.
+Aegis Access is proprietary and source-available. Its source code and documentation are publicly accessible solely for inspection, study, and evaluation. The project is not open-source.
+
+Except when permitted by GitHub's Terms of Service or applicable law, reuse, modification, redistribution, sublicensing, sale, commercial exploitation, deployment, and derivative works require prior written permission.
+
+The Aegis Access name, logo, product identity, and original visual assets remain proprietary. Third-party materials retain their respective licenses.
+
+See the [source-available notice](LICENSE) for the complete terms.

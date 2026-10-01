@@ -10,9 +10,20 @@ Thank you for your interest in Aegis Access. This document defines the contribut
 | Backlog, roadmap, and work tracking | Azure Boards |
 | Interface design and prototypes | Figma |
 | Architecture and technical decisions | Repository documentation |
+| Licensing and ownership | LICENSE |
 | Secondary repository mirror | GitLab |
 
 GitHub Issues are intentionally disabled to avoid maintaining two competing work-tracking systems.
+
+## Contribution scope
+
+Aegis Access is an independently maintained, proprietary, source-available project. Public access to the repository does not make the project open-source or grant permission to modify, reuse, or redistribute its contents.
+
+This contribution guide applies only to the project maintainer and collaborators who have received explicit authorisation to contribute. Unsolicited code contributions and pull requests are not currently accepted.
+
+Authorised contributions must begin from an Azure Boards work item and follow the repository's documented branch, commit, review, and merge workflow.
+
+Security vulnerabilities must be reported through the process defined in [SECURITY.md](SECURITY.md), not through a public pull request.
 
 ## Before starting work
 
@@ -40,7 +51,7 @@ Create branches using the following format:
 Allowed branch types are:
 
 - `feature` for new product functionality
-- `fix` for detect corrections
+- `fix` for defect corrections
 - `docs` for documentation-only changes
 - `refactor` for behaviour-preserving code improvements
 - `test` for test-only changes
