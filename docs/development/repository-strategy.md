@@ -1,7 +1,7 @@
 # Repository Strategy
 
 | Field | Value |
-|---|---|
+| --- | --- |
 | Status | Accepted |
 | Version | 1.0 |
 | Owner | Project maintainer |
@@ -19,9 +19,9 @@ Its purpose is to prevent divergent repository histories, duplicate review workf
 ## Decision summary
 
 | Responsibility | Canonical System |
-|---|---|
+| --- | --- |
 | Source code and Git history | GitHub |
-| Branches and pull requests | GitHub|
+| Branches and pull requests | GitHub |
 | Code review and merging | GitHub |
 | Work items and delivery tracking | Azure Boards |
 | Secondary repository copy | GitLab |

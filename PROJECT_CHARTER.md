@@ -1,14 +1,15 @@
 # Aegis Access Project Charter
 
 | Field | Value |
-|---|---|
+| --- | --- |
 | Project | Aegis Access |
-| Document status | Draft |
-| Document version | 0.1 |
+| Document status | Approved |
+| Document version | 1.0 |
 | Project owner | G. Konstantinos Fotopoulos (Costas Phot) |
-| Current phase | Product definition and repository foundation |
+| Current phase | Product and security design |
+| Repository status | Public, source-available, all rights reserved |
 | Created | 3 September 2026 |
-| Last updated | 4 September 2026 |
+| Last updated | 21 October 2026 |
 
 ## 1. Executive summary
 
@@ -95,14 +96,14 @@ The platform should make the secure action the natural action by:
 - Require additional review for sensitive resources.
 - Validate the complete authorisation context for every protected operation.
 - Avoid storing secrets or credentials in source control.
-- Record authentication-independent audit event for important business actions.
+- Record security-relevant business actions independently of authentication logs.
 - Test both allowed and forbidden authorisation behaviour.
 - Threat-model sensitive workflows before implementing them.
 
 ### 5.3. Engineering objectives
 
 - Use a modular monolith unless evidence justifies a different architecture.
-- Develop the product through small, end-to-end vertical slides.
+- Develop the product through small, end-to-end vertical slices.
 - Keep the default branch releasable.
 - Require automated quality checks before changes are merged.
 - Maintain traceability between requirements, issues, decisions, code, and tests.
@@ -157,7 +158,7 @@ Configures resources, permission levels, approval policies, organisational mappi
 ## 7. Stakeholders
 
 | Stakeholder | Interest |
-|---|---|
+| --- | --- |
 | Project owner and developer | Product design, implementation, learning, and portfolio value |
 | Employees | Timely and understandable access-request processing |
 | Managers | Reliable review of operational access requirements |
@@ -301,7 +302,7 @@ Out-of-scope capabilities may be reconsidered through future requirements and ar
 - The repository demonstrates consistent planning and incremental development.
 - The project contains meaningful security and authorisation logic.
 - The implementation can be demonstrated through a deployed environment.
-- The developer can explain and efend the principal decisions and trade-offs.
+- The developer can explain and defend the principal decisions and trade-offs.
 
 ## 12. Constraints
 
@@ -312,8 +313,9 @@ Out-of-scope capabilities may be reconsidered through future requirements and ar
 - Development and demonstration must not depend on access to a real employer's production environment.
 - The project must not process real confidential organisational data.
 - The architecture must remain understandable and maintainable by one developer.
-- Potential thesis use may introduce academic rules concerning publication,
+- Potential thesis use may introduce academic rules concerning publication.
 - GitHub will be the canonical repository if GitLab mirroring is introduced.
+- The public repository must contain only reviewed, non-sensitive material and must remain source-available rather than open-source unless the licensing policy is explicitly changed.
 
 ## 13. Assumptions
 
@@ -329,12 +331,12 @@ Out-of-scope capabilities may be reconsidered through future requirements and ar
 ## 14. Principal risks
 
 | Risk | Potential impact | Planned response |
-|---|---|---|
+| --- | --- | --- |
 | Uncontrolled scope growth | Delayed or incomplete releases | Maintain explicit scope, non-goals, milestones, and deferred issues |
 | Over-engineering | Complexity without user value | Require documented justification for major abstractions and infrastructure |
-| Entra misconfiguration | Authentication or authorization weakness | Use a dedicated tenant, least privilege, threat modelling, and authorization tests |
+| Entra misconfiguration | Authentication or authorisation weakness | Use a dedicated tenant, least privilege, threat modelling, and authorisation tests |
 | Secret exposure | Credential compromise | Use ignored local configuration, secret scanning, managed identities, and secret rotation procedures |
-| Incorrect authorization | Unauthorised access or decisions | Centralise policies and test every permitted and forbidden role combination |
+| Incorrect authorisation | Unauthorised access or decisions | Centralise policies and test every permitted and forbidden role combination |
 | Incomplete audit history | Unreliable security evidence | Define append-only audit rules and test all security-relevant workflows |
 | Concurrent decisions | Duplicate or contradictory approvals | Define and test an explicit concurrency strategy |
 | External-service dependency | Development or demonstration disruption | Isolate integrations and document degraded behaviour |
@@ -342,7 +344,7 @@ Out-of-scope capabilities may be reconsidered through future requirements and ar
 | Repository divergence | Conflicting GitHub and GitLab history | Maintain GitHub as the sole writable canonical repository |
 | Misleading portfolio claims | Loss of credibility | Clearly distinguish planned, implemented, tested, and deployed capabilities |
 | Academic misalignment | Project cannot be accepted as a thesis | Obtain supervisor approval before defining it as academic work |
-| Premature public disclosure | Academic or intellectual-property concerns | Keep the repository private until publication requirements are clarified |
+| Unintended public disclosure | Exposure of secrets, private assets, or academically sensitive material | Review all changes before publication, keep private assets outside version control, and use automated secret scanning |
 | Solo-maintainer dependency | Slow review and knowledge concentration | Use documentation, automation, checklists, and reproducible environments |
 
 ## 15. Guiding principles
@@ -372,32 +374,37 @@ Significant decisions must be recorded through one or more of the following:
 
 - Product requirements,
 - Business rules,
-- GitHub issues,
+- Azure Boards work items,
 - Pull requests,
 - Architecture Decision Records (ADRs),
-- Thread-model updates, and/or
+- Threat-model updates, and/or
 - Release notes.
 
 Changes to the agreed scope, security model, canonical repository, primary architecture, or potential academic direction require explicit documentation.
 
 ## 17. Initial milestones
 
-| Milestone | Outcome |
-|---|---|
-| M0 — Repository foundation | Repository safeguards, governance, and initial documentation |
-| M1 — Product and security design | Requirements, domain model, authorization matrix, architecture, and threat model |
-| M2 — Authenticated walking skeleton | Angular client calls a protected ASP.NET Core API through Entra ID |
-| M3 — Resource and request management | Resources can be configured and valid access requests can be submitted |
-| M4 — Approval workflow | Managerial and security approval rules are enforced |
-| M5 — Grant lifecycle | Approved grants can become active, expire, and be revoked |
-| M6 — Audit and reporting | Security-relevant activity can be searched and reported |
-| M7 — Operational hardening | CI/CD, observability, deployment, recovery, and security controls are complete |
-| M8 — Initial production-quality release | Version 1.0.0 is documented, tested, deployed, and demonstrable |
+| Milestone | Outcome | Status |
+| --- | --- | --- |
+| M0 — Repository foundation | Repository safeguards, governance, and initial documentation | Complete |
+| M1 — Product and security design | Requirements, domain model, authorisation matrix, architecture, and threat model | Active |
+| M2 — Authenticated walking skeleton | Angular client calls a protected ASP.NET Core API through Entra ID | Planned |
+| M3 — Resource and request management | Resources can be configured and valid access requests can be submitted | Planned |
+| M4 — Approval workflow | Managerial and security approval rules are enforced | Planned |
+| M5 — Grant lifecycle | Approved grants can become active, expire, and be revoked | Planned |
+| M6 — Audit and reporting | Security-relevant activity can be searched and reported | Planned |
+| M7 — Operational hardening | CI/CD, observability, deployment, recovery, and security controls are complete | Planned |
+| M8 — Initial production-quality release | Version 1.0.0 is documented, tested, deployed, and demonstrable | Planned |
 
 Milestone dates will be defined after the initial requirements and architecture have been reviewed.
 
 ## 18. Charter approval
 
-This charter remains in draft status until the initial product scope, constraints, and success criteria have been reviewed and accepted by the product owner.
+Version 1.0 of this charter was reviewed and approved as the initial project baseline on 21 October 2026.
 
-Acceptance of the charter establishes the baseline for subsequent requirements, architecture, and implementation work.
+| Field | Value |
+| --- | --- |
+| Status | Approved |
+| Approved by | G. Konstantinos Fotopoulos (Costas Phot) |
+| Approval date | 21 October 2026 |
+| Baseline version | 1.0 |

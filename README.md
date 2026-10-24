@@ -46,7 +46,7 @@ Aegis Access aims to provide a structured, secure, and auditable process for man
 ## Planned technology stack
 
 | Area | Technology |
-|---|---|
+| --- | --- |
 | Frontend | Angular and TypeScript |
 | Backend | ASP.NET Core and C# |
 | Identity | Microsoft Entra ID |

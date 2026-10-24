@@ -3,7 +3,7 @@
 ## Review information
 
 | Field | Value |
-|---|---|
+| --- | --- |
 | Repository | Aegis Access |
 | Work item | AB#9 |
 | Review date | 2026-10-02 |

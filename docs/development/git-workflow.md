@@ -52,14 +52,14 @@ be linked to an entire Epic.
 
 Before implementation begins, confirm that the work item contains:
 
-- a clear and focused title;
-- sufficient context;
-- measurable acceptance criteria;
-- the correct parent;
-- an assignee;
-- priority and risk values;
-- an estimate where appropriate;
-- a suitable value area and tags.
+- A clear and focused title.
+- Sufficient context.
+- Measurable acceptance criteria.
+- The correct parent.
+- An assignee.
+- Priority and risk values.
+- An estimate where appropriate.
+- A suitable value area and tags.
 
 Keep the item in `New` while it is being prepared. Move it to `Active` only when
 implementation begins.
@@ -147,13 +147,13 @@ Open the pull request as a draft if implementation or validation is incomplete.
 
 Before merging:
 
-* verify that the implementation matches the acceptance criteria;
-* review the complete diff;
-* run all relevant tests and quality checks;
-* confirm that documentation is current;
-* check for secrets and sensitive information;
-* evaluate security and accessibility implications;
-* confirm that the Azure Boards work item is linked.
+- Verify that the implementation matches the acceptance criteria.
+- Review the complete diff.
+- Run all relevant tests and quality checks.
+- Confirm that documentation is current.
+- Check for secrets and sensitive information.
+- Evaluate security and accessibility implications.
+- Confirm that the Azure Boards work item is linked.
 
 Solo-maintained changes require an explicit self-review. Independent review
 must only be claimed when another person has actually reviewed the change.
