@@ -5,7 +5,7 @@
 Aegis Access is under active pre-release development. Security fixes are applied only to the latest version of the `main` branch.
 
 | Version | Supported |
-|---|---|
+| --- | --- |
 | Latest main branch | Yes |
 | Earlier commits, branches, and tags | No |
 

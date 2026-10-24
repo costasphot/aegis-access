@@ -9,7 +9,7 @@ The documentation is maintained alongside the source code and evolves through th
 A document may have one of the following statuses:
 
 | Status | Meaning |
-|---|---|
+| --- | --- |
 | Planned | The document has been identified but has not yet been created |
 | Draft | The document is under active development and has not been accepted |
 | Accepted | The document represents the current agreed position |
@@ -21,7 +21,7 @@ Planned documents are listed below without links. A link will be added only afte
 ## Foundation
 
 | Document | Status | Purpose |
-|---|---|---|
+| --- | --- | --- |
 | [Project Charter](../PROJECT_CHARTER.md) | Draft | Defines the project's purpose, objectives, scope, constraints, risks, and success criteria |
 | [Source-Available Notice](../LICENSE) | Accepted | Defines project ownership, permitted evaluation, reuse restrictions, third-party licensing, and branding rights |
 | [Security Policy](../SECURITY.md) | Supported versions and responsible vulnerability reporting | Active |
@@ -35,7 +35,7 @@ Planned documents are listed below without links. A link will be added only afte
 Planned location: `docs/product/`
 
 | Document | Status | Purpose |
-|---|---|---|
+| --- | --- | --- |
 | Product Requirements | Planned | Defines functional and non-functional requirements using stable identifiers |
 | Personas | Planned | Describes the users, responsibilities, needs, and limitations represented by the product |
 | Domain Glossary | Planned | Establishes precise and consistent domain terminology |
@@ -48,7 +48,7 @@ Planned location: `docs/product/`
 Planned location: `docs/architecture/`
 
 | Document | Status | Purpose |
-|---|---|---|
+| --- | --- | --- |
 | Architecture Overview | Planned | Summarises the system structure and principal architectural decisions |
 | System Context Diagram | Planned | Shows Aegis Access, its users, and external systems |
 | Container Diagram | Planned | Shows the frontend, backend, database, identity provider, worker, and operational services |
@@ -82,7 +82,7 @@ ADR numbers are assigned when a decision is formally proposed. Rejected and supe
 Planned location: `docs/security/`
 
 | Document | Status | Purpose |
-|---|---|---|
+| --- | --- | --- |
 | Security Overview | Planned | Summarises the security model, protected assets, and principal controls |
 | Threat Model | Planned | Identifies trust boundaries, threats, mitigations, and residual risks |
 | Authorization Matrix | Planned | Maps roles and policies to permitted and forbidden operations |
@@ -101,7 +101,7 @@ The repository-level `SECURITY.md` file will define how vulnerabilities should b
 Planned location: `docs/quality/`
 
 | Document | Status | Purpose |
-|---|---|---|
+| --- | --- | --- |
 | Quality Strategy | Planned | Defines the overall approach to correctness, maintainability, security, and reliability |
 | Test Strategy | Planned | Defines unit, integration, authorization, end-to-end, accessibility, and performance testing |
 | Definition of Ready | Planned | Defines when an issue contains enough information to begin implementation |
@@ -116,7 +116,7 @@ Planned location: `docs/quality/`
 Planned location: `docs/operations/`
 
 | Document | Status | Purpose |
-|---|---|---|
+| --- | --- | --- |
 | Environment Overview | Planned | Describes local, test, staging, and demonstration environments |
 | Deployment Guide | Planned | Defines repeatable deployment and rollback procedures |
 | Configuration Guide | Planned | Defines non-secret application and infrastructure configuration |
@@ -133,7 +133,7 @@ Planned location: `docs/operations/`
 Planned location: `docs/development/`
 
 | Document | Status | Purpose |
-|---|---|---|
+| --- | --- | --- |
 | Local Setup | Planned | Defines the tools and commands required to run the project locally |
 | Development Workflow | Planned | Defines the issue, branch, pull-request, review, and merge process |
 | [Repository Governance](development/repository-governance.md) | Draft | Defines protected-branch rules, merge controls, deferred safeguards, and verification |
@@ -173,7 +173,7 @@ Documentation should:
 Substantial controlled documents should begin with a metadata table containing, where applicable:
 
 | Field | Description |
-|---|---|
+| --- | --- |
 | Status | Draft, Accepted, Superseded, or Retired |
 | Version | Version of the individual document |
 | Owner | Person responsible for maintaining the document |
