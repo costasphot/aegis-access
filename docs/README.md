@@ -36,11 +36,11 @@ Planned location: `docs/product/`
 
 | Document | Status | Purpose |
 | --- | --- | --- |
-| Product Requirements | Planned | Defines functional and non-functional requirements using stable identifiers |
+| [Product Requirements](product/requirements.md) | Draft | Defines functional and non-functional requirements using stable identifiers |
 | Personas | Planned | Describes the users, responsibilities, needs, and limitations represented by the product |
 | Domain Glossary | Planned | Establishes precise and consistent domain terminology |
 | Business Rules | Planned | Defines the rules governing requests, approvals, grants, expiration, and revocation |
-| User Journeys | Planned | Describes important end-to-end interactions from each user's perspective |
+| [User Journeys](product/user-journeys.md) | Draft | Describes important end-to-end interactions from each user's perspective |
 | Scope | Planned | Maintains detailed release boundaries, exclusions, and deferred capabilities |
 
 ## Architecture documentation
