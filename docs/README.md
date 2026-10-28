@@ -12,6 +12,7 @@ A document may have one of the following statuses:
 | --- | --- |
 | Planned | The document has been identified but has not yet been created |
 | Draft | The document is under active development and has not been accepted |
+| Approved | The document has been formally reviewed and baselined |
 | Accepted | The document represents the current agreed position |
 | Superseded | The document has been replaced by a newer decision or document |
 | Retired | The document is no longer applicable and has not been replaced |
@@ -22,10 +23,10 @@ Planned documents are listed below without links. A link will be added only afte
 
 | Document | Status | Purpose |
 | --- | --- | --- |
-| [Project Charter](../PROJECT_CHARTER.md) | Draft | Defines the project's purpose, objectives, scope, constraints, risks, and success criteria |
+| [Project Charter](../PROJECT_CHARTER.md) | Approved | Defines the product's vision, scope, stakeholders, constraints, and delivery principles |
 | [Source-Available Notice](../LICENSE) | Accepted | Defines project ownership, permitted evaluation, reuse restrictions, third-party licensing, and branding rights |
-| [Security Policy](../SECURITY.md) | Supported versions and responsible vulnerability reporting | Active |
-| [Publication-Readiness Review](development/publication-readiness.md) | Pre-publication validation, security checks, and accepted residual risks | Active |
+| [Security Policy](../SECURITY.md) | Active | Defines supported versions and responsible vulnerability reporting |
+| [Publication-Readiness Review](development/publication-readiness.md) | Complete | Records pre-publication validation, security checks, and accepted residual risks |
 | Product Vision | Planned | Describes the intended users, value, direction, and long-term product boundaries |
 | Roadmap | Planned | Describes planned milestones and release direction |
 | Changelog | Planned | Records notable changes included in each release |
@@ -36,12 +37,19 @@ Planned location: `docs/product/`
 
 | Document | Status | Purpose |
 | --- | --- | --- |
-| [Product Requirements](product/requirements.md) | Draft | Defines functional and non-functional requirements using stable identifiers |
+| [Product Requirements](product/requirements.md) | Approved | Defines functional and non-functional requirements using stable identifiers |
 | Personas | Planned | Describes the users, responsibilities, needs, and limitations represented by the product |
-| Domain Glossary | Planned | Establishes precise and consistent domain terminology |
-| Business Rules | Planned | Defines the rules governing requests, approvals, grants, expiration, and revocation |
-| [User Journeys](product/user-journeys.md) | Draft | Describes important end-to-end interactions from each user's perspective |
+| [User Journeys](product/user-journeys.md) | Approved | Describes important end-to-end interactions from each user's perspective |
 | Scope | Planned | Maintains detailed release boundaries, exclusions, and deferred capabilities |
+
+## Domain documentation
+
+| Document | Status | Purpose |
+| --- | --- | --- |
+| [Roles and responsibilities](domain/roles-and-responsibilities.md) | Approved | Defines product roles, responsibilities, authority boundaries, and prohibited actions |
+| [Domain Glossary](domain/glossary.md) | Approved | Establishes precise and consistent domain terminology |
+| [Business Rules](domain/business-rules.md) | Approved | Defines traceable rules governing requests, approvals, grants, expiration, and revocation |
+| [Lifecycle States](domain/lifecycle-states.md) | Approved | Defines valid states, transitions, guards, failure behaviour, and invariants |
 
 ## Architecture documentation
 
@@ -94,7 +102,7 @@ Planned location: `docs/security/`
 | Incident Response | Planned | Defines the response to security and operational incidents |
 | Privacy Considerations | Planned | Describes personal-data processing, minimisation, retention, and deletion |
 
-The repository-level `SECURITY.md` file will define how vulnerabilities should be reported once the repository is prepared for external visibility.
+The repository-level `SECURITY.md` file defines how vulnerabilities are reported.
 
 ## Quality documentation
 
@@ -136,9 +144,9 @@ Planned location: `docs/development/`
 | --- | --- | --- |
 | Local Setup | Planned | Defines the tools and commands required to run the project locally |
 | Development Workflow | Planned | Defines the issue, branch, pull-request, review, and merge process |
-| [Repository Governance](development/repository-governance.md) | Draft | Defines protected-branch rules, merge controls, deferred safeguards, and verification |
+| [Repository Governance](development/repository-governance.md) | Accepted | Defines protected-branch rules, merge controls, deferred safeguards, and verification |
 | [Repository Strategy](development/repository-strategy.md) | Accepted | Defines GitHub ownership, GitLab mirroring, synchronisation, credential handling and failure recovery |
-| [Design Workflow](development/design-workflow.md) | Draft | Defines the Figma structure, design lifecycle, traceability, versioning, sharing, and implementation handoff process |
+| [Design Workflow](development/design-workflow.md) | Accepted | Defines the Figma structure, design lifecycle, traceability, versioning, sharing, and implementation handoff process |
 | Commit Guidelines | Planned | Defines the project's human-readable commit-message style |
 | Dependency Management | Planned | Defines dependency selection, locking, updates, and vulnerability handling |
 | Database Development | Planned | Defines local database use, migrations, seed data, and test isolation |

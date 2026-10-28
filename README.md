@@ -2,7 +2,7 @@
 
 Aegis Access is an enterprise access-governance platform for requesting, reviewing, granting, monitoring, and revoking time-bound access to organisational resources.
 
-The project is designed as a production-oriented full-stack application using Angular, ASP.NET Core, PostgreSQL, and Microsoft Entra ID. It focuses on secure identity and access management (IAM), traceable approval workflows, least-previlege authorisation, and auditable access decisions.
+The project is designed as a production-oriented full-stack application using Angular, ASP.NET Core, PostgreSQL, and Microsoft Entra ID. It focuses on secure identity and access management (IAM), traceable approval workflows, least-privilege authorisation, and auditable access decisions.
 
 > [!IMPORTANT]
 > Aegis Access is currently in the planning and design stage. It is not yet
@@ -71,7 +71,7 @@ Aegis Access is being designed around the following principles:
 - Deny access by default,
 - Apply least privilege,
 - Enforce authorisation within the backend,
-- Treat frontend route guards as navigation controls, rather thna security boundaries,
+- Treat frontend route guards as navigation controls, rather than security boundaries,
 - Separate authentication from authorisation,
 - Prevent requesters from approving their own requests,
 - Require additional approval for sensitive access,
@@ -89,8 +89,8 @@ The project is developed incrementally through small, reviewable vertical slices
 Each implemented capability should be traceable through:
 
 1. A product or security requirement,
-2. A planned issue with acceptance criteria,
-3. An architecture or design decisions where required,
+2. An Azure Boards work item with acceptance criteria,
+3. An architecture or design decision where required,
 4. A short-lived implementation branch,
 5. A reviewed pull request,
 6. Automated tests,
@@ -101,17 +101,13 @@ The project intentionally begins with requirements, architecture, security analy
 
 ## Current status
 
-**Phase**: Product definition and repository foundation
+**Phase**: M1 - Product and security design
 
 Current work includes:
 
-- Defining the project charter,
-- Establishing repository standards,
-- Defining the initial product scope,
-- Designing the authorisation model,
-- Preparing the initial architecture,
-- Preparing the threat model, and
-- Planning the first working vertical slice.
+- Product requirements and user journeys are approved.
+- Domain roles, terminology, business rules, and lifecycle behaviour are being defined.
+- The authorisation model, architecture, threat model, and first vertical slice remain planned.
 
 ## Documentation
 

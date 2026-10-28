@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Status | Approved |
-| Document version | 0.1 |
+| Document version | 1.0 |
 | Owner | G. Konstantinos Fotopoulos (Costas Phot) |
 | Milestone | M1 - Product and security design |
 | Work item | AB#12 |
@@ -207,7 +207,7 @@ Aegis Access v1.0.0 will not:
 | M4 - Approval workflow | FR-015-FR-020, approval notifications, concurrency safety, and workflow audit events |
 | M5 - Grant lifecycle | FR-021-FR-026, lifecycle notifications, expiration, revocation, and grant audit events |
 | M6 - Audit and reporting | FR-027-FR-031 and auditor-facing search, history, and export capabilities |
-| M7 - Operational hardening | Performance, accessibility, observability, resiliency, security validation, deployment, and operational documentation |
+| M7 - Operational hardening | Performance, accessibility, observability, resilience, security validation, deployment, and operational documentation |
 | M8 - v1.0.0 release | Final validation, release evidence, versioning, deployment, and portfolio presentation |
 
 ## Baseline approval
