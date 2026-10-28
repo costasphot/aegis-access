@@ -12,7 +12,7 @@
 
 ## Purpose
 
-This documents defines the responsibilities of GitHub, GitLab, and Azure Boards within the Aegis Access development process.
+This document defines the responsibilities of GitHub, GitLab, and Azure Boards within the Aegis Access development process.
 
 Its purpose is to prevent divergent repository histories, duplicate review workflows, unclear ownership, and conflicting sources of truth.
 
@@ -150,7 +150,7 @@ The credential must:
 - Be accessible only to the mirroring workflow.
 - Be rotated periodically and immediately after suspected exposure.
 - Be revoked when mirroring is disabled or replaced.
-- Use an expiration date when the seelected credential type supports one.
+- Use an expiration date when the selected credential type supports one.
 
 Workflow logs, documentation, examples, screenshots, and pull requests must not contain the credential value.
 
@@ -162,7 +162,7 @@ When synchronisation fails:
 
 1. GitHub development continues normally.
 2. The failed workflow and its error are reviewed.
-3. Authentication, connectivity, permissions, and refernce divergence are checked.
+3. Authentication, connectivity, permissions, and reference divergence are checked.
 4. The automation is retried only after the cause is understood.
 5. GitLab is reconciled to GitHub; GitHub is never reconciled from GitLab.
 6. Any credential suspected of exposure is revoked and replaced.

@@ -42,7 +42,7 @@ Security research must:
 
 - target only environments and accounts that the researcher owns or is explicitly authorised to test;
 - avoid accessing, altering, or deleting another person's data;
-- avoid denial-of-service testing, social engineering, phising, and physical attacks;
+- avoid denial-of-service testing, social engineering, phishing, and physical attacks;
 - minimise data collection and operational disruption;
 - stop immediately if unintended access to sensitive information occurs.
 

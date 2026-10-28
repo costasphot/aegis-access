@@ -55,9 +55,9 @@ The following protections are intentionally deferred:
 - Required code-quality results and coverage thresholds, until the relevant analysis tools and baselines are established.
 - Required deployments, until deployment environments and the delivery pipeline exist.
 - Required signed commits, until a documented signing policy and contributor onboarding process are established.
-- Automatic Copiot code-review requests, until their value and usage policy are evaluated.
+- Automatic Copilot code-review requests, until their value and usage policy are evaluated.
 
-Deferred controls must be reconsidered when their supporting processed are introduced.
+Deferred controls must be reconsidered when their supporting processes are introduced.
 
 ## Verification
 

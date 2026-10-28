@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Status | Approved |
-| Document version | 0.1 |
+| Document version | 1.0 |
 | Owner | G. Konstantinos Fotopoulos (Costas Phot) |
 | Milestone | M1 - Product and security design |
 | Work item | AB#12 |
