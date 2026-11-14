@@ -93,7 +93,8 @@ Planned location: `docs/security/`
 | --- | --- | --- |
 | Security Overview | Planned | Summarises the security model, protected assets, and principal controls |
 | Threat Model | Planned | Identifies trust boundaries, threats, mitigations, and residual risks |
-| Authorization Matrix | Planned | Maps roles and policies to permitted and forbidden operations |
+| [Authorisation Model](security/authorisation-model.md) | Draft | Defines identity trust, role resolution, contextual authorisation, enforcement, failure, and audit expectations. |
+| [Access-Control Matrix](security/authorisation-matrix.md) | Draft | Maps stable protected-operation identifiers to roles, actors, contextual conditions, prohibitions, and traceability. |
 | Security Requirements | Planned | Defines testable security requirements with stable identifiers |
 | Data Classification | Planned | Classifies stored and processed data according to sensitivity |
 | Secrets Management | Planned | Defines how credentials and environment-specific secrets are stored and rotated |
